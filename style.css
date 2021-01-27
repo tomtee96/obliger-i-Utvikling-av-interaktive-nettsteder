@@ -1,0 +1,128 @@
+/*applys for the hole site*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*same goes for body, left right and a*/
+body{
+    background-color:#FFFFFF;
+    text-align: center;
+}
+
+/*this is used to get the hiof loge to the left*/
+.left {
+    display: inline-block;
+    padding-right: 850px;
+    
+    }
+/*this is used to get the User user loge to the right*/
+
+.right {
+    display: inline-block;
+    padding-right: 850px;
+    
+}
+/*this is used to remove blu line under button*/
+a{
+    text-decoration: none;
+}
+.title-long-box{
+
+
+ 
+
+
+
+}
+
+/*Used for styling the first box Title*/
+#title{
+top: 155px;
+left: 220px;
+width: 463px;
+height: 49px;
+border:3px solid black;
+
+
+}
+
+
+/*Used for styling the second box Title*/
+#content{
+top: 244px;
+left: 220px;
+width: 926px;
+height: 135px;
+border:3px solid black;
+}
+/*used for styling the button*/
+#submit{
+ text-align: center;
+ border:3px solid red;
+}
+
+
+/*this is used to decide what properties alle of the my todos card wil have*/
+.content-info{
+display:inline-flex;
+width: 500px;
+margin:30px;
+border:3px solid black;
+background-color: white;
+flex-direction:row;
+  
+
+}
+
+/*this is used so that i can give each todos card difrent propeties*/
+.content-box1{
+ height: 113px;
+  
+
+
+}
+.content-box2{
+ height: 113px;
+
+}
+.content-box3{
+height: 113px;
+
+}
+.content-box4{
+ height: 113px;   
+    
+
+}
+
+.content-box5{
+  height: 113px;  
+    
+
+}
+.content-box6{
+height: 113px;
+    
+    
+
+}
+
+.button{
+    
+}
+/*this is used to creat a responsvi and mobile friendly page */
+@media only screen and(max-width:800px){ 
+body{    
+   display: inline-flex;
+   flex-direction:column;
+   
+  
+  
+                       
+                        
+}
+    #title {
+        text-align: center;
+    }
