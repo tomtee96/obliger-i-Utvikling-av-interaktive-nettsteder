@@ -28,14 +28,6 @@ body{
 a{
     text-decoration: none;
 }
-.title-long-box{
-
-
- 
-
-
-
-}
 
 /*Used for styling the first box Title*/
 #title{
@@ -109,9 +101,7 @@ height: 113px;
 
 }
 
-.button{
-    
-}
+
 /*this is used to creat a responsvi and mobile friendly page */
 @media only screen and(max-width:800px){ 
 body{    
@@ -123,6 +113,4 @@ body{
                        
                         
 }
-    #title {
-        text-align: center;
-    }
+   
